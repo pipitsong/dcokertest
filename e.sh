@@ -2,4 +2,4 @@
 
 echo "Hello $1"
 time=$(date)
-echo "::set-output name=time::$time"
+echo "time=$1 WAS ONLINE AT ${time}" >> $GITHUB_OUTPUT
