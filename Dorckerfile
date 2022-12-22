@@ -1,4 +1,4 @@
-FROM aplpine:3.10
+FROM alpine:3.10
 
 COPY e.sh /e.sh
 
